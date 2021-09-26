@@ -86,8 +86,8 @@ export default class extends Component {
                             viewState={this.state.viewState}
                             views={[new OrbitView({fov: 60})]}
                             controller={true}
-                            height="700px"
-                            width="700px"
+                            height="300px"
+                            width="300px"
                             effects={effects}
                             ref={deck => {
                                 this.deckGL = deck;
